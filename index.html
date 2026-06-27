@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Randi Oktavian</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Randi</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Kemampuan</a></li>
+                <li><a href="#portfolio">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Home -->
+<section id="home" class="home">
+    <div class="home-container">
+        <div class="home-content">
+            <p class="greeting">Halo, saya</p>
+            <h1>Randi <span class="highlight">Oktavian</span></h1>
+            <p class="subtitle">Mahasiswa Sistem Informasi</p>
+            
+            <div class="home-buttons">
+                <a href="#portfolio" class="btn primary-btn">Lihat Proyek Saya</a>
+                <a href="#contact" class="btn secondary-btn">Hubungi Saya</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/randi-oktavian-87a8bb387" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/randioktavian" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/randioktv_" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/081315354375" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        
+        <div class="profile-img">
+            <div class="img-wrapper">
+                <img src="randi.jpg" alt="Randi Oktavian">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About -->
+<section id="about" class="about">
+    <div class="about-header">
+        <p class="section-label">TENTANG SAYA</p>
+        <h2>Kenalan yuk</h2>
+    </div>
+    
+    <div class="about-content">
+        <!-- Left: Deskripsi -->
+        <div class="about-text">
+            <p>Hai! Perkenalkan Nama Saya Randi Oktavian, saya mahasiswa aktif Jurusan Sistem Informasi di Universitas Pamulang PSDKU Kota Serang. Saat ini menempuh semester 5 dan memiliki ketertarikan besar terhadap pengembangan web, basis data, dan analisis sistem.</p>
+            <p>Saya percaya bahwa teknologi yang baik bukan hanya soal kode yang bekerja, tetapi tentang solusi yang benar-benar membantu orang. Saya terus belajar dan bereksperimen untuk mencapai standar tersebut.</p>
+        </div>
+
+        <!-- Right: Info Cards -->
+        <div class="info-grid">
+            <div class="info-card">
+                <div class="info-icon">👤</div>
+                <div class="info-detail">
+                    <small>NAMA LENGKAP</small>
+                    <p>RANDI OKTAVIAN</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">📍</div>
+                <div class="info-detail">
+                    <small>LOKASI</small>
+                    <p>Tangerang, Banten</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">🎓</div>
+                <div class="info-detail">
+                    <small>UNIVERSITAS</small>
+                    <p>Universitas Pamulang PSDKU Kota Serang</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">📚</div>
+                <div class="info-detail">
+                    <small>JURUSAN</small>
+                    <p>Sistem Informasi</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">📅</div>
+                <div class="info-detail">
+                    <small>SEMESTER</small>
+                    <p>Semester 5</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">✉️</div>
+                <div class="info-detail">
+                    <small>EMAIL</small>
+                    <p>randioktavian43@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills -->
+<section id="skills" class="skills">
+    <h2>Kemampuan Saya</h2>
+    
+    <!-- Tools & Software -->
+    <div class="skills-category">
+        <h3>Tools & Software</h3>
+        <div class="skills-grid" id="tools-grid"></div>
+    </div>
+
+    <!-- Hard Skills -->
+    <div class="skills-category">
+        <h3>Hard Skills</h3>
+        <div class="skills-grid" id="hard-grid"></div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="skills-category">
+        <h3>Soft Skills</h3>
+        <div class="skills-grid" id="soft-grid"></div>
+    </div>
+</section>
+
+   <!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <h2>Proyek Saya</h2>
+    <div class="portfolio-grid" id="portfolio-grid"></div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <div class="contact-header">
+        <h2>Hubungi Saya</h2>
+        <p class="contact-subtitle">Mari berkolaborasi atau sekadar berbincang tentang teknologi</p>
+    </div>
+   
+    <div class="contact-content">
+        <!-- Left: Info -->
+        <div class="contact-info">
+            <p>Saya selalu terbuka untuk diskusi, kolaborasi proyek, atau kesempatan magang.</p>
+          
+            <div class="email-box">
+                <span class="email-label">Email Saya</span>
+                <a href="mailto:randioktavian43@gmail.com" class="email-link">randioktavian43@gmail.com</a>
+            </div>
+            
+            <!-- Social Links dengan WhatsApp -->
+            <div class="contact-social">
+                <a href="https://www.linkedin.com/in/randi-oktavian-87a8bb387" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/randioktavian" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.instagram.com/randioktv_" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://wa.me/081315354375" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <!-- Right: Form -->
+        <form id="contact-form" class="contact-form">
+            <input type="text" placeholder="Nama Lengkap" required>
+            <input type="email" placeholder="Email Anda" required>
+            <textarea placeholder="Pesan Anda..." rows="6" required></textarea>
+            <button type="submit" class="btn primary-btn">Kirim Pesan</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 RANDI OKTAVIAN. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+        <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
